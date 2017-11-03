@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'YJFRootNavigationController_Example' do
+  pod 'YJFRootNavigationController', :path => '../'
+
+  target 'YJFRootNavigationController_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
