@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "UIViewController+YJFNavigationExtension.h"
+#import "YJFRootNavigationController.h"
 
 FOUNDATION_EXPORT double YJFRootNavigationControllerVersionNumber;
 FOUNDATION_EXPORT const unsigned char YJFRootNavigationControllerVersionString[];

@@ -30,7 +30,7 @@
     self.interactivePopGestureRecognizer.enabled = NO;
     
     // 1.取出设置主题的对象
-    UINavigationBar *navBar = [UINavigationBar appearanceWhenContainedIn:[YJFWrapNavigationController class], nil];
+    UINavigationBar *navBar = self.navigationBar;
     
     // 1. 导航条上标题的颜色 title
     NSDictionary *navbarTitleTextAttributes = @{
@@ -44,18 +44,32 @@
     
     // 设置导航条item颜色
     navBar.tintColor = [UIColor whiteColor];
+
+    // 这样可以保留毛玻璃效果
+    navBar.barTintColor = [UIColor redColor];
     
-    //     导航栏透明 -- 导航条的颜色由其内部的一个ImageView的image决定
-    //     去掉导航条的下划线（官方方法）
-    [navBar setBackgroundImage:[UIImage imageWithColor:[UIColor colorWithHexString:kAppGreenDark] size:CGSizeMake(1, 1)]
-                forBarPosition:UIBarPositionAny
-                    barMetrics:UIBarMetricsDefault];
     
-    [navBar setShadowImage:[UIImage new]];
+    UIImageView *navBarHairlineImageView = [self findHairlineImageViewUnder:navBar];
+    navBarHairlineImageView.hidden = YES;
     
     // 自定义返回图片(在返回按钮旁边) 这个效果由navigationBar控制
     [navBar setBackIndicatorImage:[UIImage imageNamed:@"NavBack"]];
     [navBar setBackIndicatorTransitionMaskImage:[UIImage imageNamed:@"NavBack"]];
+}
+
+
+// 寻找导航栏下的黑线
+- (UIImageView *)findHairlineImageViewUnder:(UIView *)view {
+    if ([view isKindOfClass:UIImageView.class] && view.bounds.size.height <= 1.0) {
+        return (UIImageView *)view;
+    }
+    for (UIView *subview in view.subviews) {
+        UIImageView *imageView = [self findHairlineImageViewUnder:subview];
+        if (imageView) {
+            return imageView;
+        }
+    }
+    return nil;
 }
 
 // pop
@@ -147,7 +161,7 @@ static NSValue *yjf_tabBarRectValue;
     // 原生显示效果
     if (viewController.yjf_navigationController.viewControllers.count) {
         YJFWrapViewController *lastWrapVc =[viewController.yjf_navigationController.viewControllers lastObject];
-        //         展示前一个控制器的title
+        //  展示前一个控制器的title
         indicatorVc.title = lastWrapVc.rootViewController.navigationItem.title;
         // 去掉前一个控制器的title
         indicatorVc.title = @"";
@@ -237,11 +251,13 @@ static NSValue *yjf_tabBarRectValue;
 
 
 #pragma mark - UINavigationControllerDelegate
+
 // 处理手势问题
 - (void)navigationController:(UINavigationController *)navigationController didShowViewController:(UIViewController *)viewController animated:(BOOL)animated {
     
     BOOL isRootVC = viewController == navigationController.viewControllers.firstObject;
     self.interactivePopGestureRecognizer.enabled = !isRootVC;
+
 }
 
 //修复有水平方向滚动的ScrollView时边缘返回手势失效的问题

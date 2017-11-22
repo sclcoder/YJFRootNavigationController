@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'YJFRootNavigationController'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of YJFRootNavigationController.'
+  s.summary          = 'every vc contained in  rootnav own himself navigationBar'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,14 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+every vc contained in  rootnav own himself navigationBar
                        DESC
 
-  s.homepage         = 'https://github.com/acct<blob>=<NULL>/YJFRootNavigationController'
+  s.homepage         = 'https://github.com/sclcoder/YJFRootNavigationController'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'acct<blob>=<NULL>' => 'sclcoder@163.com' }
-  s.source           = { :git => 'https://github.com/acct<blob>=<NULL>/YJFRootNavigationController.git', :tag => s.version.to_s }
+  s.license          = 'MIT'
+  s.author           = 'sclcoder@163.com'
+  s.source           = { :git => 'https://github.com/sclcoder/YJFRootNavigationController.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

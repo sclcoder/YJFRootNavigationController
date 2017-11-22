@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04CC66A51FC57817002118BC /* YJFRootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CC66A41FC57817002118BC /* YJFRootNavigationController.m */; };
-		04CC66A91FC5781B002118BC /* UIViewController+YJFNavigationExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CC66A61FC5781B002118BC /* UIViewController+YJFNavigationExtension.m */; };
-		04CC66AA1FC5781B002118BC /* YJFRootNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 04CC66A71FC5781B002118BC /* YJFRootNavigationController.h */; };
-		04CC66AB1FC5781B002118BC /* UIViewController+YJFNavigationExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 04CC66A81FC5781B002118BC /* UIViewController+YJFNavigationExtension.h */; };
 		0BEDF1C255F75680658BF7F9EF6A1E40 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		1F6C699619C7E2496B989D76350D069D /* YJFRootNavigationController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A88ADCAAE14238AF4D229F1E19B7C7FA /* YJFRootNavigationController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7044080E7C580371855F2AE2DEB2A85F /* YJFRootNavigationController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 106DCAE4A0CCCB7F6F5EA2BACB1416EE /* YJFRootNavigationController-dummy.m */; };
+		417576DBC66672B993F045F9AC2631C4 /* YJFRootNavigationController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 106DCAE4A0CCCB7F6F5EA2BACB1416EE /* YJFRootNavigationController-dummy.m */; };
+		5CEA1EE92A42F43A45B47ACB330E3783 /* YJFRootNavigationController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A88ADCAAE14238AF4D229F1E19B7C7FA /* YJFRootNavigationController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		78D0B7CDECE6397FFFD3E7C1BDFA0E97 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		7C3180EAEC1DB3DC9A4C1AFE15C35624 /* Pods-YJFRootNavigationController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BD32B71800A9F244BBB711D679523A6E /* Pods-YJFRootNavigationController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8CA7FD088A21CD4E3E10BD7E230F9ACA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		A10984A4A230B0D717D47DE93000EE41 /* Pods-YJFRootNavigationController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D455BBDF106A7ADF2C052DD2F6173587 /* Pods-YJFRootNavigationController_Tests-dummy.m */; };
+		A2362C002D33D08B35A5A7E5451C8FF5 /* UIViewController+YJFNavigationExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A8AA8133AF97C71E09C37DBC718F928 /* UIViewController+YJFNavigationExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7A9E5F30BA01BEF9639DDF4DE3C4B13 /* YJFRootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C932F8ECBE63675B430A30194EFB27 /* YJFRootNavigationController.m */; };
 		B79596E62C131CED1DD3F10F89F187BC /* Pods-YJFRootNavigationController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 740811753AC298B8046EEDDA5F4583F0 /* Pods-YJFRootNavigationController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F85921067B3D3807A11D8018D6E7D637 /* UIViewController+YJFNavigationExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 004B49F2770C1DFB7FFFDD4534F519B0 /* UIViewController+YJFNavigationExtension.m */; };
 		F8CDEA52F9B9F6F305F64436DFB978E9 /* Pods-YJFRootNavigationController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C09A68DE659610F0BCB88FEB7C4FADAC /* Pods-YJFRootNavigationController_Example-dummy.m */; };
+		FE64D10F47FAA2786B9BED5A8907DEB3 /* YJFRootNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 805948E7AF7D3D805995900CBDB6F1E5 /* YJFRootNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,13 +33,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		004B49F2770C1DFB7FFFDD4534F519B0 /* UIViewController+YJFNavigationExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+YJFNavigationExtension.m"; sourceTree = "<group>"; };
 		02B5D7694CFCD61F94AD78A3062D6EAA /* Pods-YJFRootNavigationController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YJFRootNavigationController_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		04CC66A41FC57817002118BC /* YJFRootNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJFRootNavigationController.m; sourceTree = "<group>"; };
-		04CC66A61FC5781B002118BC /* UIViewController+YJFNavigationExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+YJFNavigationExtension.m"; sourceTree = "<group>"; };
-		04CC66A71FC5781B002118BC /* YJFRootNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJFRootNavigationController.h; sourceTree = "<group>"; };
-		04CC66A81FC5781B002118BC /* UIViewController+YJFNavigationExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+YJFNavigationExtension.h"; sourceTree = "<group>"; };
 		106DCAE4A0CCCB7F6F5EA2BACB1416EE /* YJFRootNavigationController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YJFRootNavigationController-dummy.m"; sourceTree = "<group>"; };
-		151FA0805D0767A5FEB6F5DF69F7FF56 /* Pods_YJFRootNavigationController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YJFRootNavigationController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		151FA0805D0767A5FEB6F5DF69F7FF56 /* Pods_YJFRootNavigationController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YJFRootNavigationController_Tests.framework; path = "Pods-YJFRootNavigationController_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		153297B75CA9174086338F779392CC74 /* Pods-YJFRootNavigationController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YJFRootNavigationController_Example-frameworks.sh"; sourceTree = "<group>"; };
 		1E8ABA1CFD8CD894568441337B621A34 /* YJFRootNavigationController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YJFRootNavigationController.xcconfig; sourceTree = "<group>"; };
 		55FDDE59CA8DE208ECC8829F7F94FE4D /* Pods-YJFRootNavigationController_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YJFRootNavigationController_Example-resources.sh"; sourceTree = "<group>"; };
@@ -47,27 +44,30 @@
 		73A92F3025D6C07A9E22295329250D75 /* Pods-YJFRootNavigationController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YJFRootNavigationController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		740811753AC298B8046EEDDA5F4583F0 /* Pods-YJFRootNavigationController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YJFRootNavigationController_Tests-umbrella.h"; sourceTree = "<group>"; };
 		77557F5CAF948FB20A31B97BAFB80566 /* Pods-YJFRootNavigationController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YJFRootNavigationController_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		805948E7AF7D3D805995900CBDB6F1E5 /* YJFRootNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YJFRootNavigationController.h; sourceTree = "<group>"; };
+		8A8AA8133AF97C71E09C37DBC718F928 /* UIViewController+YJFNavigationExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+YJFNavigationExtension.h"; sourceTree = "<group>"; };
 		93459738B9438FA52B00BC9757404BB9 /* Pods-YJFRootNavigationController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YJFRootNavigationController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A88ADCAAE14238AF4D229F1E19B7C7FA /* YJFRootNavigationController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YJFRootNavigationController-umbrella.h"; sourceTree = "<group>"; };
+		A8C932F8ECBE63675B430A30194EFB27 /* YJFRootNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YJFRootNavigationController.m; sourceTree = "<group>"; };
 		B205D5EBD81F8B5350D6B8A100B6AAB3 /* Pods-YJFRootNavigationController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YJFRootNavigationController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		B2EA246B6141975ACC1CC70851D4535A /* Pods-YJFRootNavigationController_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YJFRootNavigationController_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		B908F9E3B11E878F4C8E31CF6448E87D /* YJFRootNavigationController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = YJFRootNavigationController.modulemap; sourceTree = "<group>"; };
-		BBAE4F9AEA1066C97ADA8DAD8FC2D1CA /* Pods-YJFRootNavigationController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-YJFRootNavigationController_Tests.modulemap"; sourceTree = "<group>"; };
+		B908F9E3B11E878F4C8E31CF6448E87D /* YJFRootNavigationController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = YJFRootNavigationController.modulemap; sourceTree = "<group>"; };
+		BBAE4F9AEA1066C97ADA8DAD8FC2D1CA /* Pods-YJFRootNavigationController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-YJFRootNavigationController_Tests.modulemap"; sourceTree = "<group>"; };
 		BC064CE7855257563516B694D6DB32D3 /* YJFRootNavigationController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YJFRootNavigationController-prefix.pch"; sourceTree = "<group>"; };
 		BD32B71800A9F244BBB711D679523A6E /* Pods-YJFRootNavigationController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YJFRootNavigationController_Example-umbrella.h"; sourceTree = "<group>"; };
 		BD613A68AE08EFC92B349414FBBE3EC4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF4A929B14BC75638AADFC0897CF60D1 /* Pods-YJFRootNavigationController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YJFRootNavigationController_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C09A68DE659610F0BCB88FEB7C4FADAC /* Pods-YJFRootNavigationController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YJFRootNavigationController_Example-dummy.m"; sourceTree = "<group>"; };
 		C5F3167D17E11E5BDD112ADFD0F06CB1 /* Pods-YJFRootNavigationController_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YJFRootNavigationController_Tests-resources.sh"; sourceTree = "<group>"; };
-		C93910FE2D3EA0461EB9369F9811085F /* Pods_YJFRootNavigationController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YJFRootNavigationController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C93910FE2D3EA0461EB9369F9811085F /* Pods_YJFRootNavigationController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YJFRootNavigationController_Example.framework; path = "Pods-YJFRootNavigationController_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9EA4B239D26038AA6BCE2D3167F061C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D455BBDF106A7ADF2C052DD2F6173587 /* Pods-YJFRootNavigationController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YJFRootNavigationController_Tests-dummy.m"; sourceTree = "<group>"; };
 		E0A5A5B54245653DD1D407D7C323EA09 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E7AB272355A32A497A1F8E5F7F85FE1C /* Pods-YJFRootNavigationController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YJFRootNavigationController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		EDBC9411540287191A0CEB491FC187C3 /* Pods-YJFRootNavigationController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-YJFRootNavigationController_Example.modulemap"; sourceTree = "<group>"; };
+		EDBC9411540287191A0CEB491FC187C3 /* Pods-YJFRootNavigationController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-YJFRootNavigationController_Example.modulemap"; sourceTree = "<group>"; };
 		F799D0E4DED9D8F19333531BFFE7C2FA /* Pods-YJFRootNavigationController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YJFRootNavigationController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		FD3E217CD67BAC386893A507A92A227D /* YJFRootNavigationController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YJFRootNavigationController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD3E217CD67BAC386893A507A92A227D /* YJFRootNavigationController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YJFRootNavigationController.framework; path = YJFRootNavigationController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,7 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				0E9B3AAC41B377A1D2172A8DA7763F33 /* Support Files */,
-				E2C4B53EC52C4E06FF6EE2A5100A625B /* YJFRootNavigationController */,
+				74F25CDD1769D649CC3677A5AB9332CD /* YJFRootNavigationController */,
 			);
 			name = YJFRootNavigationController;
 			path = ../..;
@@ -185,6 +185,27 @@
 			path = "Target Support Files/Pods-YJFRootNavigationController_Tests";
 			sourceTree = "<group>";
 		};
+		7306407FBD2FBF62C2492D6187C7EBF2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8A8AA8133AF97C71E09C37DBC718F928 /* UIViewController+YJFNavigationExtension.h */,
+				004B49F2770C1DFB7FFFDD4534F519B0 /* UIViewController+YJFNavigationExtension.m */,
+				805948E7AF7D3D805995900CBDB6F1E5 /* YJFRootNavigationController.h */,
+				A8C932F8ECBE63675B430A30194EFB27 /* YJFRootNavigationController.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		74F25CDD1769D649CC3677A5AB9332CD /* YJFRootNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				7306407FBD2FBF62C2492D6187C7EBF2 /* Classes */,
+			);
+			name = YJFRootNavigationController;
+			path = YJFRootNavigationController;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
@@ -212,25 +233,6 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		E2C4B53EC52C4E06FF6EE2A5100A625B /* YJFRootNavigationController */ = {
-			isa = PBXGroup;
-			children = (
-				F285A7987C3990173BB80F24EA1EFD1B /* Classes */,
-			);
-			path = YJFRootNavigationController;
-			sourceTree = "<group>";
-		};
-		F285A7987C3990173BB80F24EA1EFD1B /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				04CC66A81FC5781B002118BC /* UIViewController+YJFNavigationExtension.h */,
-				04CC66A61FC5781B002118BC /* UIViewController+YJFNavigationExtension.m */,
-				04CC66A71FC5781B002118BC /* YJFRootNavigationController.h */,
-				04CC66A41FC57817002118BC /* YJFRootNavigationController.m */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -238,17 +240,17 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04CC66AA1FC5781B002118BC /* YJFRootNavigationController.h in Headers */,
 				7C3180EAEC1DB3DC9A4C1AFE15C35624 /* Pods-YJFRootNavigationController_Example-umbrella.h in Headers */,
-				04CC66AB1FC5781B002118BC /* UIViewController+YJFNavigationExtension.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		45D5C06960FD66743247CBC90A685C21 /* Headers */ = {
+		DA6509746947B74DC1EBE4A61584C08D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F6C699619C7E2496B989D76350D069D /* YJFRootNavigationController-umbrella.h in Headers */,
+				A2362C002D33D08B35A5A7E5451C8FF5 /* UIViewController+YJFNavigationExtension.h in Headers */,
+				5CEA1EE92A42F43A45B47ACB330E3783 /* YJFRootNavigationController-umbrella.h in Headers */,
+				FE64D10F47FAA2786B9BED5A8907DEB3 /* YJFRootNavigationController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,9 +269,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 51791755B1790DAC8BF9056A7D30F256 /* Build configuration list for PBXNativeTarget "YJFRootNavigationController" */;
 			buildPhases = (
-				E5C16702518988A70F46B367508E20D0 /* Sources */,
+				0D610F0334030D37DDF9E4785657E27B /* Sources */,
 				4E65F90B1C9FC9A9568C96D20CF6A79B /* Frameworks */,
-				45D5C06960FD66743247CBC90A685C21 /* Headers */,
+				DA6509746947B74DC1EBE4A61584C08D /* Headers */,
 			);
 			buildRules = (
 			);
@@ -344,21 +346,21 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0D610F0334030D37DDF9E4785657E27B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F85921067B3D3807A11D8018D6E7D637 /* UIViewController+YJFNavigationExtension.m in Sources */,
+				417576DBC66672B993F045F9AC2631C4 /* YJFRootNavigationController-dummy.m in Sources */,
+				A7A9E5F30BA01BEF9639DDF4DE3C4B13 /* YJFRootNavigationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7FF9E7D40C331E7E230CA09659921202 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F8CDEA52F9B9F6F305F64436DFB978E9 /* Pods-YJFRootNavigationController_Example-dummy.m in Sources */,
-				04CC66A51FC57817002118BC /* YJFRootNavigationController.m in Sources */,
-				04CC66A91FC5781B002118BC /* UIViewController+YJFNavigationExtension.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E5C16702518988A70F46B367508E20D0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7044080E7C580371855F2AE2DEB2A85F /* YJFRootNavigationController-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
