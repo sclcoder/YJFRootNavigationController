@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04CC66AE1FC5864C002118BC /* YJFTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CC66AC1FC5864B002118BC /* YJFTabBarController.m */; };
+		04CC66B11FC5888E002118BC /* YJFTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CC66B01FC5888E002118BC /* YJFTestViewController.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -37,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04CC66AC1FC5864B002118BC /* YJFTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJFTabBarController.m; sourceTree = "<group>"; };
+		04CC66AD1FC5864B002118BC /* YJFTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJFTabBarController.h; sourceTree = "<group>"; };
+		04CC66AF1FC5888E002118BC /* YJFTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJFTestViewController.h; sourceTree = "<group>"; };
+		04CC66B01FC5888E002118BC /* YJFTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJFTestViewController.m; sourceTree = "<group>"; };
 		3FFB2CC7B54E17A865C1BE58 /* Pods-YJFRootNavigationController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJFRootNavigationController_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YJFRootNavigationController_Tests/Pods-YJFRootNavigationController_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* YJFRootNavigationController_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YJFRootNavigationController_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -60,10 +66,10 @@
 		70F0E4A25E8907E80D079CBC /* Pods_YJFRootNavigationController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YJFRootNavigationController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8D282C5AAE2F25A5CB8EA714 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		9A2AC8B814124563F26E09D2 /* YJFRootNavigationController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YJFRootNavigationController.podspec; path = ../YJFRootNavigationController.podspec; sourceTree = "<group>"; };
+		8D282C5AAE2F25A5CB8EA714 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		9A2AC8B814124563F26E09D2 /* YJFRootNavigationController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YJFRootNavigationController.podspec; path = ../YJFRootNavigationController.podspec; sourceTree = "<group>"; };
 		9C914F198FBAE9990E6EC99A /* Pods-YJFRootNavigationController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJFRootNavigationController_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YJFRootNavigationController_Tests/Pods-YJFRootNavigationController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		A835A7737C4AE3BBD20FD4A0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A835A7737C4AE3BBD20FD4A0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		D6C4A12699C5F58F91CFCFC2 /* Pods-YJFRootNavigationController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJFRootNavigationController_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YJFRootNavigationController_Example/Pods-YJFRootNavigationController_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E47349F462C2DC59196E9407 /* Pods-YJFRootNavigationController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJFRootNavigationController_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-YJFRootNavigationController_Example/Pods-YJFRootNavigationController_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E99D7AB1C46A1F313F17A1FB /* Pods_YJFRootNavigationController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YJFRootNavigationController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -132,11 +138,15 @@
 		6003F593195388D20070C39A /* Example for YJFRootNavigationController */ = {
 			isa = PBXGroup;
 			children = (
+				04CC66AD1FC5864B002118BC /* YJFTabBarController.h */,
+				04CC66AC1FC5864B002118BC /* YJFTabBarController.m */,
+				6003F5A5195388D20070C39A /* YJFViewController.h */,
+				6003F5A6195388D20070C39A /* YJFViewController.m */,
+				04CC66AF1FC5888E002118BC /* YJFTestViewController.h */,
+				04CC66B01FC5888E002118BC /* YJFTestViewController.m */,
 				6003F59C195388D20070C39A /* YJFAppDelegate.h */,
 				6003F59D195388D20070C39A /* YJFAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* YJFViewController.h */,
-				6003F5A6195388D20070C39A /* YJFViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -250,6 +260,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "acct<blob>=<NULL>";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = U74G29566D;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -395,8 +408,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* YJFAppDelegate.m in Sources */,
+				04CC66AE1FC5864C002118BC /* YJFTabBarController.m in Sources */,
 				6003F5A7195388D20070C39A /* YJFViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				04CC66B11FC5888E002118BC /* YJFTestViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -524,6 +539,7 @@
 			baseConfigurationReference = D6C4A12699C5F58F91CFCFC2 /* Pods-YJFRootNavigationController_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U74G29566D;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YJFRootNavigationController/YJFRootNavigationController-Prefix.pch";
 				INFOPLIST_FILE = "YJFRootNavigationController/YJFRootNavigationController-Info.plist";
@@ -539,6 +555,7 @@
 			baseConfigurationReference = E47349F462C2DC59196E9407 /* Pods-YJFRootNavigationController_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U74G29566D;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YJFRootNavigationController/YJFRootNavigationController-Prefix.pch";
 				INFOPLIST_FILE = "YJFRootNavigationController/YJFRootNavigationController-Info.plist";
