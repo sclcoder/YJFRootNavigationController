@@ -1,0 +1,6 @@
+framework module Pods_YJFRootNavigationController_Tests {
+  umbrella header "Pods-YJFRootNavigationController_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

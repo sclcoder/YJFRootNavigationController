@@ -1,0 +1,6 @@
+framework module YJFRootNavigationController {
+  umbrella header "YJFRootNavigationController-umbrella.h"
+
+  export *
+  module * { export * }
+}

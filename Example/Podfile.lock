@@ -1,0 +1,16 @@
+PODS:
+  - YJFRootNavigationController (0.1.0)
+
+DEPENDENCIES:
+  - YJFRootNavigationController (from `../`)
+
+EXTERNAL SOURCES:
+  YJFRootNavigationController:
+    :path: ../
+
+SPEC CHECKSUMS:
+  YJFRootNavigationController: 3d29699f2428c72d8aeba71e7e01ed98a45d4559
+
+PODFILE CHECKSUM: 2d39a1c39d5084a788b3d7d386332b51ea2593e7
+
+COCOAPODS: 1.2.1
